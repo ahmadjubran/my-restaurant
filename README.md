@@ -1,5 +1,7 @@
 # Big Pasta Restaurant
 
+![Wireframe](https://user-images.githubusercontent.com/37676509/176441399-b8f61675-e1fe-4c5e-ad6c-fd1d61b6fdee.png)
+
 ![Big Pasta Restaurant](https://user-images.githubusercontent.com/37676509/176180556-86ec0fe5-86bd-491d-a83b-90bb4d4b8f20.png)
 
 </br>
