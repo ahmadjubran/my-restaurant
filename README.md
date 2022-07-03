@@ -1,7 +1,5 @@
 # Big Pasta Restaurant
 
-This design is inspired by jonas schmedtmann (Omnifood Project)
-
 ![Wireframe](https://user-images.githubusercontent.com/37676509/176441399-b8f61675-e1fe-4c5e-ad6c-fd1d61b6fdee.png)
 
 ![Big Pasta Restaurant](https://user-images.githubusercontent.com/37676509/176180556-86ec0fe5-86bd-491d-a83b-90bb4d4b8f20.png)
@@ -61,3 +59,5 @@ Hearty and creamy tortellini soup with sausage, spinach and kale is total comfor
 Classic easy meat lasagna is the ultimate Italian comfort food with layers of tender lasagna, meaty tomato sauce, cheese filling and melted cheese on top.
 
 [Read more](https://www.aheadofthyme.com/easy-meat-lasagna/)
+
+This design is inspired by jonas schmedtmann [Omnifood Project](https://ahmadjubran.github.io/Omnifood/)
