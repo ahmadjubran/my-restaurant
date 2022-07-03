@@ -4,113 +4,161 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us</title>
+    <link rel="icon" href="./assets/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Big Pasta restaurant</title>
   </head>
   <body>
     <header>
-      <h1>Big Pasta restaurant</h1>
-      <ul>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="about.html">about</a>
-        </li>
-      </ul>
-      <img
-        src="https://www.aheadofthyme.com/wp-content/uploads/2021/02/pasta-bake-with-sausage-baked-ziti-5.jpg"
-        alt="Big pasta restaurant"
-        height="600"
-      />
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio,
-        repudiandae iusto! Velit explicabo soluta corporis deserunt laudantium
-        minima ex ad beatae, reiciendis, molestiae ab accusantium odio, suscipit
-        nisi eum nulla?
-      </p>
-      <button>Start Order</button>
-      <hr />
+      <section class="container">
+        <div class="header__logo">
+          <img src="./assets/logo.svg" alt="Big Pasta logo" width="200" />
+          <h1 class="primary__heading">Big Pasta</h1>
+        </div>
+
+        <div class="header__nav">
+          <nav class="navigator">
+            <ul class="nav__lists">
+              <li class="nav__list">
+                <ion-icon name="home" class="nav__icon"></ion-icon>
+                <a href="index.html" class="nav__link">Home</a>
+              </li>
+              <li class="nav__list">
+                <ion-icon name="person-circle" class="nav__icon"></ion-icon>
+                <a href="about.html" class="nav__link">about</a>
+              </li>
+              <li class="nav__list">
+                <ion-icon name="cart" class="nav__icon"></ion-icon>
+                <a href="#" class="nav__link">Checkout</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
     </header>
+
     <main>
-      <img
-        src="https://www.sassyhongkong.com/wp-content/uploads/2021/03/italian-restaurant-hong-kong-eat-drink.jpg"
-        alt="about us"
-        width="700"
-      />
-      <h2>About Us</h2>
-      <h3>Big Pasta Restaurant</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-        quibusdam, quisquam quisquam. lorem ipsum dolor sit amet consectetur,
-        adipisicing elit. Quisquam quibusdam, quisquam quisquam.
-      </p>
-      <hr />
+      <section class="container">
+        <div class="main__section">
+          <div class="main__section--img">
+            <img
+              src="./assets/Main-Pasta.jpg"
+              alt="Big pasta restaurant"
+              height="600"
+              class="main__img"
+            />
+          </div>
+          <div class="main__section--text">
+            <p class="paragraph main__paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio,
+              repudiandae iusto! Velit explicabo soluta corporis deserunt
+              laudantium minima ex ad beatae, reiciendis, molestiae ab
+              accusantium odio, suscipit nisi eum nulla?
+            </p>
+            <a href="#" class="link main__link">Start Order</a>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <h2 class="secondary__heading">About Us</h2>
+        <h3 class="tertiary__heading">Big Pasta Restaurant</h3>
+        <p class="paragraph about__paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          quibusdam, quisquam quisquam. lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Quisquam quibusdam, quisquam quisquam.
+        </p>
+        <img
+          class="about__img"
+          src="./assets/about-img.jpg"
+          alt="about us"
+          width="700"
+        />
+      </section>
     </main>
+
     <footer>
-      <h3>Contact Us</h3>
-      <ul>
-        <li>
-          <img
-            src="https://i.pinimg.com/originals/6b/c3/97/6bc39791d238c93858fa6f0154d2db6b.jpg"
-            alt="location"
-            width="50"
-          />
-          <p>Amman Jordan</p>
-        </li>
-        <li>
-          <img
-            src="https://i.pinimg.com/564x/b7/fa/9e/b7fa9e84ef25b04619ddf36db441878a.jpg"
-            alt="phone"
-            width="50"
-          />
-          <p>555-555-5555</p>
-        </li>
-        <li>
-          <img
-            src="https://i.pinimg.com/564x/0b/87/bb/0b87bb7ed051aa7d971be8738ab2c1f9.jpg"
-            alt="phone"
-            width="50"
-          />
-          <p>10:00am - 2:00am</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="about.html">About us</a>
-        </li>
-        <li>
-          <a href="#">Start Order</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#"
-            ><img
-              src="https://i.pinimg.com/564x/70/f9/36/70f936294a1f0f3949a9205df9340d5e.jpg"
-              alt="facebook"
-              width="50"
-          /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img
-              src="https://i.pinimg.com/564x/93/87/90/938790b17acb5b3b8236d65ce8c4fc45.jpg"
-              alt="Instagram"
-              width="50"
-          /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img
-              src="https://i.pinimg.com/564x/f0/c3/2f/f0c32feb5282123f941ef6f110be88a2.jpg"
-              alt="Twitter"
-              width="50"
-          /></a>
-        </li>
-      </ul>
+      <section class="container">
+        <div class="info">
+          <h3 class="tertiary__heading">Info</h3>
+
+          <ul class="info__lists">
+            <li class="info__list">
+              <ion-icon name="location" class="icon info__icon"></ion-icon>
+              <p class="paragraph info__paragraph">Amman Jordan</p>
+            </li>
+
+            <li class="info__list">
+              <ion-icon name="call" class="icon info__icon"></ion-icon>
+              <p class="paragraph info__paragraph">555-555-5555</p>
+            </li>
+
+            <li class="info__list">
+              <ion-icon name="time" class="icon info__icon"></ion-icon>
+              <p class="paragraph info__paragraph">10:00am - 2:00am</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__links">
+          <h3 class="tertiary__heading">Links</h3>
+
+          <ul class="footer__lists">
+            <li class="footer__list">
+              <a class="footer__link" href="#">Home</a>
+            </li>
+
+            <li class="footer__list">
+              <a class="footer__link" href="about.html">About us</a>
+            </li>
+
+            <li class="footer__list">
+              <a class="footer__link" href="#">Start Order</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="social">
+          <h3 class="tertiary__heading">Social Media</h3>
+
+          <ul class="social__lists">
+            <li class="social__list">
+              <a href="#"
+                ><ion-icon
+                  name="logo-facebook"
+                  class="icon social__icon"
+                ></ion-icon
+              ></a>
+            </li>
+
+            <li class="social__list">
+              <a href="#"
+                ><ion-icon
+                  name="logo-instagram"
+                  class="icon social__icon"
+                ></ion-icon
+              ></a>
+            </li>
+
+            <li class="social__list">
+              <a href="#"
+                ><ion-icon
+                  name="logo-twitter"
+                  class="icon social__icon"
+                ></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
