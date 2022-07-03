@@ -4,143 +4,209 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
     <title>Big Pasta restaurant</title>
   </head>
   <body>
-    <header>
-      <h1>Big Pasta restaurant</h1>
-      <ul>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="about.html">about</a>
-        </li>
-      </ul>
-      <img
-        src="https://www.aheadofthyme.com/wp-content/uploads/2021/02/pasta-bake-with-sausage-baked-ziti-5.jpg"
-        alt="Big pasta restaurant"
-        height="600"
-      />
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio,
-        repudiandae iusto! Velit explicabo soluta corporis deserunt laudantium
-        minima ex ad beatae, reiciendis, molestiae ab accusantium odio, suscipit
-        nisi eum nulla?
-      </p>
-      <button>Start Order</button>
-      <hr />
+    <header class="header">
+      <a href="#">
+        <img src="./assets/logo.svg" alt="Big Pasta logo" class="logo" />
+      </a>
+
+      <nav>
+        <ul class="nav-lists">
+          <li>
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link nav-cta">Checkout</a>
+          </li>
+        </ul>
+      </nav>
     </header>
+
     <main>
-      <h2>Menu</h2>
-      <ul>
-        <li>
-          <h3>Chicken Parmesan (Parmigiana)</h3>
-          <img
-            src="https://www.aheadofthyme.com/wp-content/uploads/2020/10/easy-chicken-parmesan-chicken-parmigiana-768x1152.jpg"
-            alt="Chicken Parmesan (Parmigiana)"
-            height="300"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            quibusdam, quisquam quisquam.
-          </p>
-          <a href="#">Order Now</a>
-        </li>
-        <li>
-          <h3>Pasta Bake with Sausage (Baked Ziti)</h3>
-          <img
-            src="https://www.aheadofthyme.com/wp-content/uploads/2021/02/pasta-bake-with-sausage-baked-ziti-5.jpg"
-            alt="Pasta Bake with Sausage (Baked Ziti)"
-            height="300"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            quibusdam, quisquam quisquam.
-          </p>
-          <a href="#">Order Now</a>
-        </li>
-        <li>
-          <h3>Italian Meatballs</h3>
-          <img
-            src="https://www.aheadofthyme.com/wp-content/uploads/2021/03/italian-meatballs-7-768x1152.jpg"
-            alt="Italian Meatballs"
-            height="300"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            quibusdam, quisquam quisquam.
-          </p>
-          <a href="#">Order Now</a>
-        </li>
-      </ul>
-      <hr />
+      <section class="section-hero">
+        <div class="hero">
+          <div>
+            <h1 class="primary-heading">
+              It's comforting, delicious, and so satisfying.
+            </h1>
+            <p class="hero-paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio,
+              repudiandae iusto! Velit explicabo soluta corporis deserunt
+              laudantium minima ex ad beatae, reiciendis, molestiae ab
+              accusantium odio, suscipit nisi eum nulla?
+            </p>
+            <a href="#" class="btn">Start Order</a>
+          </div>
+
+          <div>
+            <img
+              src="./assets/Main-Pasta.jpg"
+              alt="Big pasta restaurant"
+              class="hero-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <h2 class="secondary-heading menu-text">Menu</h2>
+
+        <div class="cards grid grid--3-cols">
+          <div class="card">
+            <img
+              src="./assets/img--1.jpg"
+              alt="Pasta Bake with Sausage (Baked Ziti)"
+              class="card-img"
+            />
+
+            <div class="card-content">
+              <h3 class="tertiary-heading">
+                Pasta Bake with Sausage (Baked Ziti)
+              </h3>
+              <p class="card-paragraph">
+                Pasta bake with sausage (baked ziti) is a lazy day lasagna with
+                layers of pasta tossed in a rich meat sauce, layered with
+                mozzarella, and baked.
+              </p>
+              <a class="btn" href="#">Order Now</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="./assets/img--2.jpg"
+              alt="Pesto Penne Pasta"
+              class="card-img"
+            />
+
+            <div class="card-content">
+              <h3 class="tertiary-heading">Pesto Penne Pasta</h3>
+              <p class="card-paragraph">
+                Quick and easy pesto penne pasta is a simple and light Italian
+                pasta dish made with just five ingredients in under 15 minutes.
+                The easiest dinner.
+              </p>
+              <a class="btn" href="#">Order Now</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="
+            ./assets/img--3.jpg"
+              alt="Creamy White Chicken and Spinach Lasagna"
+              class="card-img"
+            />
+
+            <div class="card-content">
+              <h3 class="tertiary-heading">
+                Creamy White Chicken and Spinach Lasagna
+              </h3>
+              <p class="card-paragraph">
+                Creamy white chicken and spinach lasagna with tender shredded
+                chicken is the most comforting creamiest cheesiest white
+                lasagna. Easy to make ahead & freeze.
+              </p>
+              <a class="btn" href="#">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer>
-      <h3>Contact Us</h3>
-      <ul>
-        <li>
-          <img
-            src="https://i.pinimg.com/originals/6b/c3/97/6bc39791d238c93858fa6f0154d2db6b.jpg"
-            alt="location"
-            width="50"
-          />
-          <p>Amman Jordan</p>
-        </li>
-        <li>
-          <img
-            src="https://i.pinimg.com/564x/b7/fa/9e/b7fa9e84ef25b04619ddf36db441878a.jpg"
-            alt="phone"
-            width="50"
-          />
-          <p>555-555-5555</p>
-        </li>
-        <li>
-          <img
-            src="https://i.pinimg.com/564x/0b/87/bb/0b87bb7ed051aa7d971be8738ab2c1f9.jpg"
-            alt="phone"
-            width="50"
-          />
-          <p>10:00am - 2:00am</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="about.html">About us</a>
-        </li>
-        <li>
-          <a href="#">Start Order</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#"
-            ><img
-              src="https://i.pinimg.com/564x/70/f9/36/70f936294a1f0f3949a9205df9340d5e.jpg"
-              alt="facebook"
-              width="50"
-          /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img
-              src="https://i.pinimg.com/564x/93/87/90/938790b17acb5b3b8236d65ce8c4fc45.jpg"
-              alt="Instagram"
-              width="50"
-          /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img
-              src="https://i.pinimg.com/564x/f0/c3/2f/f0c32feb5282123f941ef6f110be88a2.jpg"
-              alt="Twitter"
-              width="50"
-          /></a>
-        </li>
-      </ul>
+
+    <footer class="footer">
+      <section class="container grid grid--3-cols">
+        <div>
+          <h3 class="tertiary-heading">Info</h3>
+
+          <ul>
+            <li class="footer-list">
+              <p class="footer-paragraph">
+                <ion-icon name="location" class="icon info-icon"></ion-icon>
+                Amman Jordan
+              </p>
+            </li>
+
+            <li class="footer-list">
+              <p class="footer-paragraph">
+                <ion-icon name="call" class="icon info-icon"></ion-icon>
+                555-555-5555
+              </p>
+            </li>
+
+            <li class="footer-list">
+              <p class="footer-paragraph">
+                <ion-icon name="time" class="icon info-icon"></ion-icon> 10:00am
+                - 2:00am
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="tertiary-heading">Links</h3>
+
+          <ul>
+            <li class="footer-list">
+              <a class="footer-link" href="#">Home</a>
+            </li>
+
+            <li class="footer-list">
+              <a class="footer-link" href="about.html">About us</a>
+            </li>
+
+            <li class="footer-list">
+              <a class="footer-link" href="#">Start Order</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="social">
+          <h3 class="tertiary-heading">Social Media</h3>
+
+          <ul class="social-lists">
+            <li>
+              <a href="#"
+                ><ion-icon name="logo-facebook" class="social-icon"></ion-icon
+              ></a>
+            </li>
+
+            <li>
+              <a href="#"
+                ><ion-icon name="logo-instagram" class="social-icon"></ion-icon
+              ></a>
+            </li>
+
+            <li>
+              <a href="#"
+                ><ion-icon name="logo-twitter" class="social-icon"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
